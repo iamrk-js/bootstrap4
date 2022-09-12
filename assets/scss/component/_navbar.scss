@@ -1,0 +1,14 @@
+.my-navbar {
+    .nav-item {
+        .nav-link {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        &.active{
+            border-left: 1px solid orange;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+#home-icons{
+    .fa{
+        font-size: 3.25rem;
+    }
+}
+
+#home-heading{
+    min-height: 200px;
+    background-image: url("../images/lights.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        @include overlay-dark;
+    }
+}
+
+.video{
+    min-height: 200px;
+    background-image: url("../images/media.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        @include overlay-dark;
+    }
+    .fa{
+        font-size: 3.25rem;
+    }
+}
+
+.footer{
+    background-color: black;
+}

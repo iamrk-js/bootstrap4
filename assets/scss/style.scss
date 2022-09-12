@@ -1,0 +1,18 @@
+
+@import './abstract/variable';
+@import './abstract/mixins';
+
+@import './base/typography';
+@import './base/utility';
+@import './base/base';
+@import './base/animation';
+
+
+@import './component/navbar';
+@import './component/slider';
+@import './component/home-icon';
+
+@import './pages/home';
+@import './pages/about-us';
+@import './pages/services';
+@import './pages/blogs';
